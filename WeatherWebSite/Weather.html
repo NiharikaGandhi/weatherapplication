@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<script src="Scripts/jquery-3.1.1.js"></script>
+<script src="Scripts/jquery.unobtrusive-ajax.js"></script>
+<link href="Content/bootstrap.css" rel="stylesheet" />
+<script src="Weather.js"></script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title></title>
+</head>
+<body>
+<H3>Find Weather</H3>
+<table class="container">
+    <tr>
+        <td>
+            <label>Enter Country Name</label>
+        </td>
+        <td><input type="text" id="countryName" onblur="popolateCities();" /></td>
+    </tr>
+    <tr >
+        <td>
+            <label>Cities</label>
+        </td>
+        <td><select name="cities" id="cities"> </select></td>
+        <td>
+            <input type="button" value="Show Weather" class="btn btn-default" id="submit" onclick="ShowWeather();" />
+        </td>
+    </tr>
+  
+    <tr><td colspan="2"><label id="errorMessage" hidden>Something went wrong!!</label></td></tr>
+</table>
+<table id="tblWeather" hidden class="table table-bordered text-info">
+    <tr>
+        <td>
+            <label >Location</label>
+        </td>
+        <td>
+            <label id="Location"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >Time</label>
+        </td>
+        <td>
+            <label id="Time"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >Wind</label>
+        </td>
+        <td>
+            <label id="Wind"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >Visibility</label>
+        </td>
+        <td>
+            <label id="Visibility"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >SkyConditions</label>
+        </td>
+        <td>
+            <label id="SkyConditions"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >Temperature</label>
+        </td>
+        <td>
+            <label id="Temperature"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >DewPoint</label>
+        </td>
+        <td>
+            <label id="DewPoint"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >RelativeHumidity</label>
+        </td>
+        <td>
+            <label id="RelativeHumidity"></label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label >Pressure</label>
+        </td>
+        <td>
+            <label id="Pressure"></label>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

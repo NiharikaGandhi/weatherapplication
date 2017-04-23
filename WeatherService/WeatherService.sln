@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService", "WeatherService\WeatherService.csproj", "{D9C442FC-F659-48F1-9C5F-1193567FC547}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WeatherWebSite", "http://localhost:53027", "{0E977EEF-26F6-44B7-8675-2A3E94C52F05}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53027"
+		Debug.AspNetCompiler.PhysicalPath = "..\WeatherWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53027\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53027"
+		Release.AspNetCompiler.PhysicalPath = "..\WeatherWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53027\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\WeatherWebSite\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherService.Tests", "WeatherService.Tests\WeatherService.Tests.csproj", "{A1987719-F800-4595-B31B-94002F177D0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Release|x64.ActiveCfg = Release|Any CPU
+		{D9C442FC-F659-48F1-9C5F-1193567FC547}.Release|x86.ActiveCfg = Release|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Release|ARM.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Release|x64.ActiveCfg = Debug|Any CPU
+		{0E977EEF-26F6-44B7-8675-2A3E94C52F05}.Release|x86.ActiveCfg = Debug|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1987719-F800-4595-B31B-94002F177D0F}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
